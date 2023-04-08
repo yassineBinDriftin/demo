@@ -1,4 +1,0 @@
-FROM openjdk:17
-EXPOSE 9090
-ADD /target/gestioncontrat-0.0.1-SNAPSHOT.jar gestioncontrat-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","gestioncontrat-0.0.1-SNAPSHOT.jar"]
